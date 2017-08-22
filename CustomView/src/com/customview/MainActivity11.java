@@ -17,6 +17,7 @@ public class MainActivity11 extends Activity
 
 	GoodProgressView good_progress_view1;
 	GoodProgressView good_progress_view2;
+	private string arg;
 	
 	int progressValue=0;	
 
