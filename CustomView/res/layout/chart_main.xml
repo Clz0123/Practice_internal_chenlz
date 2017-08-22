@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test="http://schemas.android.com/apk/res/com.customview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bfbfbf"
+    android:orientation="vertical" >
+
+    <com.customview.view.DataChartView
+        android:id="@+id/chart_view1"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        test:TitleText="@string/data_chart_text" />
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="VIEW1" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="VIEW2" />
+
+</LinearLayout>

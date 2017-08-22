@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">CustomView</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="energy_flow_text_left">GENERATION</string>
+    <string name="energy_flow_text_middle">0kW</string>
+    <string name="energy_flow_text_right">CONSUMTION</string>
+    <string name="eco_efficciency_text">ECO EFFICCIENCY</string>
+    <string name="data_chart_text">AVERAGE POWER CONSUMPTION</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.customview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.customview.view.GoodProgressView
+        android:id="@+id/good_progress_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+
+    <com.customview.view.GoodProgressView
+        android:id="@+id/good_progress_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        custom:backgroundColor="#ffcccccc"
+        custom:textColor="#ff000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginRight="28dp"
+        android:paddingBottom="30dp" >
+
+        <com.customview.view.EnergyFlowView
+            android:id="@+id/energy_flow_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:backgroundColor="#ffcccccc"
+            custom:centerPosition="480"
+            custom:textSize="24" />
+    </LinearLayout>
+
+</RelativeLayout>

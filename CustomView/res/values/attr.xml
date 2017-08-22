@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="startColor" format="color" />
+    <attr name="endColor" format="color" />
+    <attr name="backgroundColor" format="color" />
+    <attr name="textColor" format="color" />
+
+    <declare-styleable name="GoodProgressView">
+        <attr name="startColor" />
+        <attr name="endColor" />
+        <attr name="backgroundColor" />
+        <attr name="textColor" />
+    </declare-styleable>
+
+    <attr name="centerPosition" format="float" />
+    <attr name="textSize" format="float" />
+
+    <declare-styleable name="EnergyFlowView">
+        <attr name="centerPosition" />
+        <attr name="backgroundColor" />
+        <attr name="textColor" />
+        <attr name="textSize" />
+    </declare-styleable>
+
+    <attr name="radiusLen" format="float" />
+    <attr name="dottedCircleColor" format="color" />
+    <attr name="solidCircleColor" format="color" />
+    <attr name="circleAttribute" format="string" />
+    <attr name="percentTextSize" format="float" />
+    <attr name="percentTextColor" format="color" />
+    <attr name="infoTextSize" format="float" />
+    <attr name="infoTextColor" format="color" />
+
+    <declare-styleable name="CircleView">
+        <attr name="radiusLen" />
+        <attr name="dottedCircleColor" />
+        <attr name="solidCircleColor" />
+        <attr name="circleAttribute" />
+        <attr name="percentTextSize" />
+        <attr name="percentTextColor" />
+        <attr name="infoTextSize" />
+        <attr name="infoTextColor" />
+    </declare-styleable>
+
+    
+    <attr name="YOffset1" format="float" />
+    <attr name="YOffset2" format="float" />
+    <attr name="YOffset3" format="float" />
+    <attr name="YOffset4" format="float" />
+    <attr name="XOffset1" format="float" />
+    <attr name="TitleSize" format="float" />
+    <attr name="AxisTextSize" format="float" />
+    <attr name="TitleText" format="reference" />
+
+    <declare-styleable name="DataChartView">
+        <attr name="YOffset1" />
+        <attr name="YOffset2" />
+        <attr name="YOffset3" />
+        <attr name="YOffset4" />
+        <attr name="XOffset1" />
+        <attr name="TitleSize" />
+        <attr name="AxisTextSize" />
+        <attr name="TitleText" />
+    </declare-styleable>
+</resources>
